@@ -276,7 +276,7 @@ li {
 
 .hero {
   background-size:cover;
-  height: 25vw;
+  height: 20vw;
   margin-top: 60px;
   width:100vw;
 }
@@ -409,9 +409,11 @@ line-height: 1.5em;
 
 /* BLOG STYLES */
 
+
 .blog-recent {
   text-align: right;
 }
+
 .blog-title-list {
   list-style: none;
   padding: 0;
@@ -426,6 +428,7 @@ line-height: 1.5em;
   font-style: italic;
   margin-top: 0.5em;
 }
+
 
 .blog-posts ~ .blog-posts {
   border-top: 1px dotted rgba(0, 0, 0, 0.1);

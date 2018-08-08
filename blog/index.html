@@ -25,8 +25,8 @@ layout: russian
             <span> - {{ post.date | date: '%B %d, %Y' }}</span>
           </div>
         </header>
-      <div class="posts-image" style="background-image:url({{ post.postHero }})">
-      </div>
+      <a href="{{ post.url }}"><div class="posts-image" style="background-image:url({{ post.postHero }})">
+      </div></a>
       {{ post.excerpt }}
       </div>
       {% endfor %}
